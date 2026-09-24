@@ -26,4 +26,4 @@ jobs:
         run: npm ci
 
       - name: Check application
-        run: node --check src/server.js
+        run: node --check product-api/src/server.js
