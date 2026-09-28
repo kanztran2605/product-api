@@ -8,7 +8,8 @@ app.use(express.json());
 
 app.get('/health', (req, res) => {
   res.status(200).json({
-    status: 'OK'
+    status: 'OK',
+    version: '2.0'
   });
 });
 
